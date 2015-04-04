@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DA2A1811ACD8C50003D46F3 /* TransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2A1801ACD8C50003D46F3 /* TransitionAnimationController.m */; };
+		7DA2A1841ACE2BBC003D46F3 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2A1831ACE2BBC003D46F3 /* ScrollViewController.m */; };
 		7DBDDEA11ACD7C42009E8AE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDDEA01ACD7C42009E8AE5 /* main.m */; };
 		7DBDDEA41ACD7C42009E8AE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDDEA31ACD7C42009E8AE5 /* AppDelegate.m */; };
 		7DBDDEA71ACD7C42009E8AE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDDEA61ACD7C42009E8AE5 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DA2A17F1ACD8C50003D46F3 /* TransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationController.h; sourceTree = "<group>"; };
+		7DA2A1801ACD8C50003D46F3 /* TransitionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationController.m; sourceTree = "<group>"; };
+		7DA2A1821ACE2BBC003D46F3 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		7DA2A1831ACE2BBC003D46F3 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 		7DBDDE9B1ACD7C42009E8AE5 /* ImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBDDE9F1ACD7C42009E8AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DBDDEA01ACD7C42009E8AE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +91,10 @@
 				7DBDDEA31ACD7C42009E8AE5 /* AppDelegate.m */,
 				7DBDDEA51ACD7C42009E8AE5 /* ViewController.h */,
 				7DBDDEA61ACD7C42009E8AE5 /* ViewController.m */,
+				7DA2A17F1ACD8C50003D46F3 /* TransitionAnimationController.h */,
+				7DA2A1801ACD8C50003D46F3 /* TransitionAnimationController.m */,
+				7DA2A1821ACE2BBC003D46F3 /* ScrollViewController.h */,
+				7DA2A1831ACE2BBC003D46F3 /* ScrollViewController.m */,
 				7DBDDEA81ACD7C42009E8AE5 /* Main.storyboard */,
 				7DBDDEAB1ACD7C42009E8AE5 /* Images.xcassets */,
 				7DBDDEAD1ACD7C42009E8AE5 /* LaunchScreen.xib */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA2A1841ACE2BBC003D46F3 /* ScrollViewController.m in Sources */,
 				7DBDDEA71ACD7C42009E8AE5 /* ViewController.m in Sources */,
+				7DA2A1811ACD8C50003D46F3 /* TransitionAnimationController.m in Sources */,
 				7DBDDEA41ACD7C42009E8AE5 /* AppDelegate.m in Sources */,
 				7DBDDEA11ACD7C42009E8AE5 /* main.m in Sources */,
 			);
@@ -412,6 +424,7 @@
 				7DBDDEC01ACD7C43009E8AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DBDDEC11ACD7C43009E8AE5 /* Build configuration list for PBXNativeTarget "ImageBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				7DBDDEC31ACD7C43009E8AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
