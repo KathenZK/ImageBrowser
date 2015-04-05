@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D62E29D1AD002A7009DAE67 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D62E29B1AD002A7009DAE67 /* CollectionViewController.m */; };
+		7D62E29E1AD002A7009DAE67 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D62E29C1AD002A7009DAE67 /* CollectionViewController.xib */; };
+		7D62E2A21AD00509009DAE67 /* ImagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D62E2A01AD00509009DAE67 /* ImagesCell.m */; };
+		7D62E2A31AD00509009DAE67 /* ImagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D62E2A11AD00509009DAE67 /* ImagesCell.xib */; };
+		7D62E2A51AD00807009DAE67 /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D62E2A41AD00807009DAE67 /* images.plist */; };
+		7D62E2A81AD008F7009DAE67 /* Images.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D62E2A71AD008F7009DAE67 /* Images.m */; };
 		7DA2A1811ACD8C50003D46F3 /* TransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2A1801ACD8C50003D46F3 /* TransitionAnimationController.m */; };
 		7DA2A1841ACE2BBC003D46F3 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2A1831ACE2BBC003D46F3 /* ScrollViewController.m */; };
 		7DBDDEA11ACD7C42009E8AE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDDEA01ACD7C42009E8AE5 /* main.m */; };
@@ -29,6 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D62E29A1AD002A7009DAE67 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = ../CollectionViewController.h; sourceTree = "<group>"; };
+		7D62E29B1AD002A7009DAE67 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewController.m; path = ../CollectionViewController.m; sourceTree = "<group>"; };
+		7D62E29C1AD002A7009DAE67 /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionViewController.xib; path = ../CollectionViewController.xib; sourceTree = "<group>"; };
+		7D62E29F1AD00509009DAE67 /* ImagesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesCell.h; sourceTree = "<group>"; };
+		7D62E2A01AD00509009DAE67 /* ImagesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesCell.m; sourceTree = "<group>"; };
+		7D62E2A11AD00509009DAE67 /* ImagesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagesCell.xib; sourceTree = "<group>"; };
+		7D62E2A41AD00807009DAE67 /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = images.plist; sourceTree = "<group>"; };
+		7D62E2A61AD008F7009DAE67 /* Images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Images.h; sourceTree = "<group>"; };
+		7D62E2A71AD008F7009DAE67 /* Images.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Images.m; sourceTree = "<group>"; };
 		7DA2A17F1ACD8C50003D46F3 /* TransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationController.h; sourceTree = "<group>"; };
 		7DA2A1801ACD8C50003D46F3 /* TransitionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationController.m; sourceTree = "<group>"; };
 		7DA2A1821ACE2BBC003D46F3 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
@@ -95,6 +110,14 @@
 				7DA2A1801ACD8C50003D46F3 /* TransitionAnimationController.m */,
 				7DA2A1821ACE2BBC003D46F3 /* ScrollViewController.h */,
 				7DA2A1831ACE2BBC003D46F3 /* ScrollViewController.m */,
+				7D62E2A61AD008F7009DAE67 /* Images.h */,
+				7D62E2A71AD008F7009DAE67 /* Images.m */,
+				7D62E29F1AD00509009DAE67 /* ImagesCell.h */,
+				7D62E2A01AD00509009DAE67 /* ImagesCell.m */,
+				7D62E2A11AD00509009DAE67 /* ImagesCell.xib */,
+				7D62E29A1AD002A7009DAE67 /* CollectionViewController.h */,
+				7D62E29B1AD002A7009DAE67 /* CollectionViewController.m */,
+				7D62E29C1AD002A7009DAE67 /* CollectionViewController.xib */,
 				7DBDDEA81ACD7C42009E8AE5 /* Main.storyboard */,
 				7DBDDEAB1ACD7C42009E8AE5 /* Images.xcassets */,
 				7DBDDEAD1ACD7C42009E8AE5 /* LaunchScreen.xib */,
@@ -106,6 +129,7 @@
 		7DBDDE9E1ACD7C42009E8AE5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D62E2A41AD00807009DAE67 /* images.plist */,
 				7DBDDE9F1ACD7C42009E8AE5 /* Info.plist */,
 				7DBDDEA01ACD7C42009E8AE5 /* main.m */,
 			);
@@ -209,8 +233,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D62E29E1AD002A7009DAE67 /* CollectionViewController.xib in Resources */,
 				7DBDDEAA1ACD7C42009E8AE5 /* Main.storyboard in Resources */,
 				7DBDDEAF1ACD7C42009E8AE5 /* LaunchScreen.xib in Resources */,
+				7D62E2A31AD00509009DAE67 /* ImagesCell.xib in Resources */,
+				7D62E2A51AD00807009DAE67 /* images.plist in Resources */,
 				7DBDDEAC1ACD7C42009E8AE5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,8 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA2A1841ACE2BBC003D46F3 /* ScrollViewController.m in Sources */,
+				7D62E2A81AD008F7009DAE67 /* Images.m in Sources */,
 				7DBDDEA71ACD7C42009E8AE5 /* ViewController.m in Sources */,
+				7D62E29D1AD002A7009DAE67 /* CollectionViewController.m in Sources */,
 				7DA2A1811ACD8C50003D46F3 /* TransitionAnimationController.m in Sources */,
+				7D62E2A21AD00509009DAE67 /* ImagesCell.m in Sources */,
 				7DBDDEA41ACD7C42009E8AE5 /* AppDelegate.m in Sources */,
 				7DBDDEA11ACD7C42009E8AE5 /* main.m in Sources */,
 			);

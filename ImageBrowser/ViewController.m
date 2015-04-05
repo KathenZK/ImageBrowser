@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TransitionAnimationController.h"
 #import "ScrollViewController.h"
+#import "CollectionViewController.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -83,7 +84,10 @@
     }
     else if ([str isEqualToString:@"使用UICollectionView实现"])
     {
-        
+        CollectionViewController *collection = [[CollectionViewController alloc] init];
+        collection.title = str;
+        collection.view.backgroundColor = [UIColor whiteColor];
+        [self.navigationController pushViewController:collection animated:YES];
     }
 }
 @end
