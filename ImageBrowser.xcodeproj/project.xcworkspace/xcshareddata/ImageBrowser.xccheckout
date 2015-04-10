@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D74A3518-45DE-4F05-8D0B-094E413028DA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ImageBrowser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A38DCF13F919E75740D1F4AF7D3788735B3524CD</key>
+		<string>https://github.com/KathenZK/ImageBrowser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ImageBrowser.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A38DCF13F919E75740D1F4AF7D3788735B3524CD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KathenZK/ImageBrowser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A38DCF13F919E75740D1F4AF7D3788735B3524CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A38DCF13F919E75740D1F4AF7D3788735B3524CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImageBrowser</string>
+		</dict>
+	</array>
+</dict>
+</plist>

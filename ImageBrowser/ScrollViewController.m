@@ -86,7 +86,7 @@ extern NSInteger const IMAGE_COUNT;//图片总数
 - (void)setDefaultImage
 {
     //加载默认图片
-    _leftImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%li.jpg", IMAGE_COUNT - 1]];
+    _leftImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%i.jpg", IMAGE_COUNT - 1]];
     _centerImageView.image=[UIImage imageNamed:[NSString stringWithFormat:@"%i.jpg",0]];
     _rightImageView.image=[UIImage imageNamed:[NSString stringWithFormat:@"%i.jpg",1]];
     _currentImageIndex = 0;
